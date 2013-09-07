@@ -1,0 +1,47 @@
+/*regla comun: - de <768px es un movil
+entre 768px entre 1200px tablet o laptop; */
+
+@media screen and (min-width: 768px)
+{
+	body
+	{
+		margin: a auto;
+		margin: 0 auto;
+		max-width: 1200px;
+	}
+	#bienvenida
+	{
+		display: block;
+		border-bottom: 1px solid #ccc;
+		float:right;
+		margin-right: 2%;
+		width: 25%
+	}
+	#bienvenida h2
+	{
+		color: #434343;
+	}
+	#bienvenida #mensaje_registro,
+	#bienvenida #registro
+	{
+		text-align: center;
+	}
+
+	#bienvenida #mensaje_registro
+	{
+		font-size: 0.8em;
+	}
+	#bienvenida #registro
+	{
+		background: #228CE0;
+		color:white;
+		display: block;
+		font-size 1.2em;
+		padding: 0.5em 0;
+
+	}
+	#contenido
+	{
+		width: 70%
+	}
+}
